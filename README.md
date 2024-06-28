@@ -1,28 +1,39 @@
-# Chess Engine Project
+# Chess
 
-This is a chess engine project that combines C++ code and the Stockfish chess engine to create a powerful chess playing application.
+This is a simple chess game implementation using the SFML (Simple and Fast Multimedia Library) library in C++.
 
 ## Features
+- Fully functional chess game with standard rules and moves
+- Supports castling and en passant captures
+- Displays the current board position
+- Allows you to move pieces by clicking and dragging
 
-- Integrated Stockfish chess engine for strong chess evaluation and move generation
-- Interactive command-line interface to play against the chess engine
-- Supports loading and saving game states in the standard Portable Game Notation (PGN) format
-- Configurable search depth and evaluation parameters to fine-tune the engine's performance
-- Easy-to-use code structure for extensibility and further development
+## Prerequisites
+- C++ compiler (e.g., GCC, Clang, MSVC)
+- SFML library installed on your system
 
-## Technologies Used
+## How to Build
+1. Clone the repository or download the source files.
+2. Ensure you have the SFML library installed on your system.
+3. Compile the code using your preferred C++ compiler and linker. For example, using GCC:
+   ```
+   g++ -std=c++11 -o chess main.cpp Connector.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   ```
+4. Run the compiled executable:
+   ```
+   ./chess
+   ```
 
-- C++ for the core chess engine logic and user interface
-- Stockfish chess engine for advanced chess evaluation and move generation
-- Git for version control and collaboration
+## Usage
+- The game board is displayed with the initial chess position.
+- To move a piece, click and drag the piece to the desired destination.
+- The game will automatically check for valid moves and update the board accordingly.
+- Castling and en passant captures are supported.
 
-## Getting Started
+## Code Structure
+- `main.cpp`: The main entry point of the program, which sets up the SFML window and game loop.
+- `Connector.hpp`: Defines the `Connector` class, which handles the chess logic and piece movement.
+- `Connector.cpp`: Implements the `Connector` class and its member functions.
 
-1. Clone the repository: `git clone https://github.com/your-username/chess-engine.git`
-2. Ensure you have a C++ compiler (e.g., GCC, Clang) and the Stockfish executable installed.
-3. Build the project using your preferred C++ build tool (e.g., CMake, Make).
-4. Run the chess engine application and enjoy playing against the AI opponent!
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have ideas for improvements, please feel free to submit a pull request or open an issue in the repository.
+## Acknowledgments
+This project was created using the SFML library, which can be found at [https://www.sfml-dev.org/](https://www.sfml-dev.org/).
