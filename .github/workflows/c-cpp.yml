@@ -1,0 +1,26 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest  # Use windows-latest for Windows environment
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up SFML
+      uses: rtaink/setup-sfml@v2
+
+    - name: Build
+      run: mingw32-make  # Use mingw32-make instead of make for Windows with MinGW
+
+    - name: Run tests
+      run: mingw32-make check  # Adjust to match your Makefile's test target
+
+    - name: Run additional checks
+      run: mingw32-make distcheck  # Adjust to match your Makefile's distcheck target
