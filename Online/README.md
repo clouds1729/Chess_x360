@@ -33,10 +33,6 @@ Drive Chess is a proof of concept showcasing the potential for multiplayer turn-
 
 ### What's Next?
 
-We're excited to see what other game ideas the community comes up with. One of our team's favorites is Settlers of Catan. If you're out there, Klaus Teuber, perhaps you should give it some consideration.
-
----
-
 Hopefully this example inspires you to leverage Google Drive for your own multiplayer game projects. Enjoy playing Drive Chess and happy coding!
 
 ---
