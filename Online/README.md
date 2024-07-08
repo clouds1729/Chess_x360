@@ -1,21 +1,48 @@
+Here's an improved version of your README for Drive Chess:
+
+---
+
 ## Drive Chess
-### Building the game of kings... with Google Drive
 
+### Building the Game of Kings... with Google Drive
 
-Recently my team has been discussing the potential for using the Google Drive Realtime API as a platform for game development. It seems to offer a number of nice features for game devs:
+Drive Chess is a simple yet innovative web-based chess program leveraging the Google Drive Realtime API. This project demonstrates the potential of Google Drive as a platform for game development, offering several advantages for developers:
 
-* User authentication is built-in
-* Friends can be invited to play simply by sharing the Drive file
-* Users own their game data
-* Drive resolves conflicting actions between players
-* Storage costs of saved games are effectively zero
+- **User Authentication**: Built-in user authentication streamlines the login process.
+- **Easy Invitations**: Friends can join the game simply by sharing the Drive file.
+- **User-Owned Data**: Players own their game data, stored securely on their Drive accounts.
+- **Conflict Resolution**: Drive handles conflicting actions between players seamlessly.
+- **Cost-Effective Storage**: Storage costs for saved games are effectively zero.
 
-As an example, we created a very simple chess program, called Drive Chess, that lets two people (or more) move pieces around a shared chess board. There is no rule enforcement, checkmate detection, or AI player... it’s simply a web-based version of a physical chess board in which any invited player can move any piece.
+### Features
 
+Drive Chess allows two or more players to move pieces around a shared chess board in real-time. This initial version does not include rule enforcement, checkmate detection, or AI players. It's a digital equivalent of a physical chess board where any invited player can move any piece.
 
-To play, first authorize the app to use your Google Drive account. Then, invite a friend to play with you by sharing the Drive Chess file with them via the "Invite a Friend" link.
+### Getting Started
 
-The game stores the position of the pieces in a shared file on each player’s Drive account, and the game itself is on Github, which both hosts the code and provides a public page for the game itself. Combining Drive and Github has a nice side effect of hosting the entire game for free.
+To start playing:
 
-We hope this example shows the potential of using Drive for multiplayer turn-based games. To play around with the Realtime API and see how it works for yourself, check out the Realtime Playground. What other game ideas come to mind? One of our team’s favorites is Settlers of Catan. If you’re out there, Klaus Teuber, perhaps you should give it some consideration.
+1. **Authorize the App**: Authorize Drive Chess to access your Google Drive account.
+2. **Invite a Friend**: Share the Drive Chess file with a friend using the "Invite a Friend" link.
 
+The game saves the position of the pieces in a shared file on each player's Drive account. The code and game itself are hosted on GitHub, offering a public page for easy access and free hosting.
+
+### Hosting and Storage
+
+Combining Google Drive and GitHub provides a seamless experience, hosting the entire game for free and ensuring player data is securely stored on their own Drive accounts.
+
+### Future Potential
+
+Drive Chess is a proof of concept showcasing the potential for multiplayer turn-based games using Google Drive. To explore the possibilities of the Realtime API and experiment with your own ideas, check out the [Realtime Playground](https://developers.google.com/drive/realtime).
+
+### What's Next?
+
+We're excited to see what other game ideas the community comes up with. One of our team's favorites is Settlers of Catan. If you're out there, Klaus Teuber, perhaps you should give it some consideration.
+
+---
+
+Hopefully this example inspires you to leverage Google Drive for your own multiplayer game projects. Enjoy playing Drive Chess and happy coding!
+
+---
+
+Feel free to customize this README further to better suit your project's specifics and your team's vision.
