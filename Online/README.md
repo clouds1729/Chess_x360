@@ -1,6 +1,6 @@
 ---
 
-## Chess- [Google Drive]
+## Chess- Google Drive
 
 ### Building the Game of Kings... with Google Drive
 
