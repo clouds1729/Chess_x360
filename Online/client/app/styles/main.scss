@@ -1,0 +1,77 @@
+@import "compass_twitter_bootstrap";
+@import "compass_twitter_bootstrap_responsive";
+@import "compass/css3/box-sizing";
+
+@import "chessboard";
+
+body {
+  background-color: #000;
+  overflow: hidden;
+}
+
+.loader {
+	background-image: url('../images/ajax-loader.gif');
+	position: absolute;
+	text-align: center;
+	width: 32px;
+	height: 32px;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+}
+
+.modal img {
+  width: 520px;
+  height: auto;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+#nav {
+	position: relative;
+	z-index: 10000;
+
+  .gameTitle {
+    margin-left: 10px;
+    @media (max-width: 767px) {
+      font-size: 16px;
+    }
+    @media (max-width: 450px) {
+      font-size: 14px;
+    }
+  }
+  .gameTitleEdit {
+    margin-bottom: 0;
+    margin-left: 5px;
+    background-color: rgba(0,0,0,0);
+    color: #fff;
+  }
+
+}
+
+#players {
+  
+  img {
+    width:28px;
+    height:28px;
+    margin-top:6px;
+  }
+
+  span.vs {
+    color: #ddd;
+    position: relative;
+    top: 4px;
+  }
+
+  .avatarBlack {
+    @include box-sizing(border-box);
+    border: 2px solid #000;
+  }
+
+  .avatarWhite {
+    @include box-sizing(border-box);
+    border: 2px solid #ddd;
+  }
+
+}
