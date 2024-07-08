@@ -1,8 +1,6 @@
-Here's an improved version of your README for Drive Chess:
-
 ---
 
-## Drive Chess
+## Chess- [Google Drive]
 
 ### Building the Game of Kings... with Google Drive
 
