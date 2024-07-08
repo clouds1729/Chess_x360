@@ -1,4 +1,4 @@
-## Chess On GDrive
+## Chess on Google Drive
 
 ### Building the Game of Kings... with Google Drive
 
@@ -37,7 +37,7 @@ We're excited to see what other game ideas the community comes up with. One of o
 
 ---
 
-We hope this example inspires you to leverage Google Drive for your own multiplayer game projects. Enjoy playing Drive Chess and happy coding!
+Hopefully this example inspires you to leverage Google Drive for your own multiplayer game projects. Enjoy playing Drive Chess and happy coding!
 
 ---
 
