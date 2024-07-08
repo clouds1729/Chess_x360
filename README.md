@@ -23,11 +23,11 @@ Drive Chess is an innovative project that combines the power of the Google Drive
 
 #### Online Version
 
-To start playing the online version, refer to the detailed [README](online/README.md) in the `online` folder.
+To start playing the online version, refer to the detailed [README](https://github.com/clouds1729/Chess_x360/blob/main/Offline/README.md) in the `online` folder.
 
 #### Offline Version
 
-To start playing the offline version, refer to the detailed [README](offline/README.md) in the `offline` folder.
+To start playing the offline version, refer to the detailed [README](https://github.com/clouds1729/Chess_x360/blob/main/Online/README.md) in the `offline` folder.
 
 ### Installation
 
