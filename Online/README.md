@@ -36,5 +36,3 @@ Drive Chess is a proof of concept showcasing the potential for multiplayer turn-
 Hopefully this example inspires you to leverage Google Drive for your own multiplayer game projects. Enjoy playing Drive Chess and happy coding!
 
 ---
-
-Feel free to customize this README further to better suit your project's specifics and your team's vision.
